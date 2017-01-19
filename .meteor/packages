@@ -23,7 +23,6 @@ semantic:ui
 flemay:less-autoprefixer
 kadira:flow-router
 kadira:blaze-layout
-uzumaxy:prevent-backspace
 useraccounts:semantic-ui
 useraccounts:flow-routing
 zimme:active-route
@@ -40,10 +39,6 @@ perak:codemirror
 accounts-base@1.2.14
 raix:handlebar-helpers
 lepozepo:cloudinary
-ejson@1.0.13
 shell-server@0.2.1
 alanning:roles
-http@1.2.10
 underscore@1.0.10
-froala:editor-reactive
-okgrow:analytics

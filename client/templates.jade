@@ -1,55 +1,10 @@
 head
-    title Impact Hub Boulder
+    title Watering Hole
     meta(name='google-site-verification', content='39IkAy9_2Kik_KYkTpSGnfcwQgFppiZ2QkaoRLoU_-g')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
-    link(rel='apple-touch-icon', sizes='60x60', href='/apple-icon-60x60.png')
-    link(rel='apple-touch-icon', sizes='72x72', href='/apple-icon-72x72.png')
-    link(rel='apple-touch-icon', sizes='76x76', href='/apple-icon-76x76.png')
-    link(rel='apple-touch-icon', sizes='114x114', href='/apple-icon-114x114.png')
-    link(rel='apple-touch-icon', sizes='120x120', href='/apple-icon-120x120.png')
-    link(rel='apple-touch-icon', sizes='144x144', href='/apple-icon-144x144.png')
-    link(rel='apple-touch-icon', sizes='152x152', href='/apple-icon-152x152.png')
-    link(rel='apple-touch-icon', sizes='180x180', href='/apple-icon-180x180.png')
-    link(rel='icon', type='image/png', sizes='192x192', href='/android-icon-192x192.png')
-    link(rel='icon', type='image/png', sizes='32x32', href='/favicon-32x32.png')
-    link(rel='icon', type='image/png', sizes='96x96', href='/favicon-96x96.png')
-    link(rel='icon', type='image/png', sizes='16x16', href='/favicon-16x16.png')
-    link(rel='manifest', href='/manifest.json')
     meta(name='msapplication-TileColor', content='#ffffff')
     meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
     meta(name='theme-color', content='#ffffff')
-    // Facebook Pixel Code
-    script.
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-        document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1789045828047331');
-        fbq('track', "PageView");
-    noscript
-        img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=1789045828047331&ev=PageView&noscript=1')
-    // End Facebook Pixel Code
-
-    // // Start of HappyFox Live Chat Script
-    // script.
-    //     window.HFCHAT_CONFIG = {
-    //     EMBED_TOKEN: "d434b3c0-88e9-11e6-8645-ad7d67320c92",
-    //     ACCESS_TOKEN: "4fa972518ac84b519ceb7c6bfd150794",
-    //     HOST_URL: "https://happyfoxchat.com",
-    //     ASSETS_URL: "https://d1l7z5ofrj6ab8.cloudfront.net/visitor"
-    //     };
-    //     (function() {
-    //     var scriptTag = document.createElement('script');
-    //     scriptTag.type = 'text/javascript';
-    //     scriptTag.async = true;
-    //     scriptTag.src = window.HFCHAT_CONFIG.ASSETS_URL + '/js/widget-loader.js';
-    //     var s = document.getElementsByTagName('script')[0];
-    //     s.parentNode.insertBefore(scriptTag, s);
-    //     })();
-    // // End of HappyFox Live Chat Script
-
 
 
 
@@ -64,13 +19,9 @@ head
 
 
 template(name='layout')
-    // +Template.dynamic template=nav
-    +academy_nav
-    // +nav
+    +nav
     +Template.dynamic template=cloud
-    +Template.dynamic template=sub_nav
     +Template.dynamic template=main
-    // +Template.dynamic template=footer
     +footer
 
 
